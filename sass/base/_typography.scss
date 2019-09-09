@@ -47,6 +47,7 @@ body {
     background-clip: text;
     color: transparent;
     letter-spacing: .2rem;
+    margin: auto;
 
     @include respond(tab-port) {
         font-size: 3rem;
@@ -68,5 +69,9 @@ body {
 
     &:not(:last-child) {
         margin-bottom: 3rem;
+    }
+
+    @include respond(big-desktop) {
+        font-size: 2rem;
     }
 }
