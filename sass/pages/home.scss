@@ -1,0 +1,55 @@
+.section-about {
+    background-color: $color-grey-light-1;
+    padding: 15rem 0;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+
+.section-projects,
+.all-projects {
+    background-color: $color-grey-light-1;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#000000, .2),
+        rgba(#000000, .2)),
+        url('../img/harley-davidson-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 15rem 0;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+
+.all-projects {
+    padding: 5rem 0;
+    
+    @include respond(tab-port) {
+        padding: 2.5rem 5rem;
+    }
+}
+
+.section-book {
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+
+.book {
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 100%), url(../img/jase-bloor.jpg);
+    background-size: cover;
+    border-radius: .3rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+
+    &__form {
+        width: 100%;
+        padding: 6rem;
+    }
+}
