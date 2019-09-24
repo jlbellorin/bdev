@@ -326,6 +326,7 @@ body {
   }
   .project__side {
     position: relative;
+    height: 28rem;
   }
   .project__side--back {
     transform: rotateY(0);
@@ -334,7 +335,8 @@ body {
     transform: rotateY(0);
   }
   .project__back-grid {
-    height: 90%;
+    height: 100%;
+    padding: 1rem 0;
   }
   .project__title {
     margin-bottom: 3rem;

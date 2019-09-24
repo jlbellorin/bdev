@@ -88,6 +88,7 @@
 
         &__side {
             position: relative;
+            height: 28rem;
 
             &--back {
                 transform: rotateY(0);
@@ -100,7 +101,8 @@
 
         //BACK SIDE STYLING
         &__back-grid {
-            height: 90%;
+            height: 100%;
+            padding: 1rem 0;
         }
 
         &__title {
